@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830DFF751C5987EA0052DAEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830DFF741C5987EA0052DAEC /* AppDelegate.swift */; };
+		830DFF7A1C5987EA0052DAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830DFF781C5987EA0052DAEC /* Main.storyboard */; };
+		830DFF7C1C5987EA0052DAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830DFF7B1C5987EA0052DAEC /* Assets.xcassets */; };
+		830DFF7F1C5987EA0052DAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830DFF7D1C5987EA0052DAEC /* LaunchScreen.storyboard */; };
+		830DFF891C5989440052DAEC /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830DFF881C5989440052DAEC /* TableController.swift */; };
+		830DFF8B1C598CF70052DAEC /* ClimasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830DFF8A1C598CF70052DAEC /* ClimasController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		830DFF711C5987EA0052DAEC /* clima3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clima3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		830DFF741C5987EA0052DAEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		830DFF791C5987EA0052DAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		830DFF7B1C5987EA0052DAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		830DFF7E1C5987EA0052DAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		830DFF801C5987EA0052DAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830DFF881C5989440052DAEC /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		830DFF8A1C598CF70052DAEC /* ClimasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimasController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		830DFF6E1C5987EA0052DAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		830DFF681C5987EA0052DAEC = {
+			isa = PBXGroup;
+			children = (
+				830DFF731C5987EA0052DAEC /* clima3 */,
+				830DFF721C5987EA0052DAEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		830DFF721C5987EA0052DAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				830DFF711C5987EA0052DAEC /* clima3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		830DFF731C5987EA0052DAEC /* clima3 */ = {
+			isa = PBXGroup;
+			children = (
+				830DFF741C5987EA0052DAEC /* AppDelegate.swift */,
+				830DFF781C5987EA0052DAEC /* Main.storyboard */,
+				830DFF7B1C5987EA0052DAEC /* Assets.xcassets */,
+				830DFF7D1C5987EA0052DAEC /* LaunchScreen.storyboard */,
+				830DFF801C5987EA0052DAEC /* Info.plist */,
+				830DFF881C5989440052DAEC /* TableController.swift */,
+				830DFF8A1C598CF70052DAEC /* ClimasController.swift */,
+			);
+			path = clima3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		830DFF701C5987EA0052DAEC /* clima3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830DFF831C5987EA0052DAEC /* Build configuration list for PBXNativeTarget "clima3" */;
+			buildPhases = (
+				830DFF6D1C5987EA0052DAEC /* Sources */,
+				830DFF6E1C5987EA0052DAEC /* Frameworks */,
+				830DFF6F1C5987EA0052DAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clima3;
+			productName = clima3;
+			productReference = 830DFF711C5987EA0052DAEC /* clima3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		830DFF691C5987EA0052DAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Telecomunicaciones Abiertas de México";
+				TargetAttributes = {
+					830DFF701C5987EA0052DAEC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 830DFF6C1C5987EA0052DAEC /* Build configuration list for PBXProject "clima3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 830DFF681C5987EA0052DAEC;
+			productRefGroup = 830DFF721C5987EA0052DAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				830DFF701C5987EA0052DAEC /* clima3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		830DFF6F1C5987EA0052DAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830DFF7F1C5987EA0052DAEC /* LaunchScreen.storyboard in Resources */,
+				830DFF7C1C5987EA0052DAEC /* Assets.xcassets in Resources */,
+				830DFF7A1C5987EA0052DAEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		830DFF6D1C5987EA0052DAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830DFF891C5989440052DAEC /* TableController.swift in Sources */,
+				830DFF751C5987EA0052DAEC /* AppDelegate.swift in Sources */,
+				830DFF8B1C598CF70052DAEC /* ClimasController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		830DFF781C5987EA0052DAEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830DFF791C5987EA0052DAEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		830DFF7D1C5987EA0052DAEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830DFF7E1C5987EA0052DAEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		830DFF811C5987EA0052DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		830DFF821C5987EA0052DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		830DFF841C5987EA0052DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clima3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telecomabmex.libros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		830DFF851C5987EA0052DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clima3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telecomabmex.libros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		830DFF6C1C5987EA0052DAEC /* Build configuration list for PBXProject "clima3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830DFF811C5987EA0052DAEC /* Debug */,
+				830DFF821C5987EA0052DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830DFF831C5987EA0052DAEC /* Build configuration list for PBXNativeTarget "clima3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830DFF841C5987EA0052DAEC /* Debug */,
+				830DFF851C5987EA0052DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 830DFF691C5987EA0052DAEC /* Project object */;
+}
